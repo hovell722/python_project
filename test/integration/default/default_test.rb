@@ -103,3 +103,7 @@ end
 describe file('/usr/local/lib/python3.6/dist-packages/zipp.py') do
   it { should exist }
 end
+
+describe directory('/var/lib/jenkins') do
+  it { should exist }
+end
